@@ -21,6 +21,5 @@ export const Update = (req, res) => {
 
 export const DeleteNote = (req, res) => {
   const { id } = req.params;
-
   res.json({ success: true });
 };
